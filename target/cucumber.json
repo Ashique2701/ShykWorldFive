@@ -1,0 +1,100 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Successful Sign-In with Valid Credentials",
+        "description": "",
+        "id": "sign-in;successful-sign-in-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16917184700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user launch Chrome browser \u0026 user opens URL \"https://www.amazon.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.amazon.com",
+                  "offset": 45
+                }
+              ],
+              "location": "StepDefinationFiveD.user_launch_Chrome_browser_user_opens_URL(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1588918501,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "double click on Signin",
+            "match": {
+              "location": "StepDefinationFiveD.double_click_on_Signin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2713480200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters Email on Sign-In box and click on continue",
+            "match": {
+              "location": "StepDefinationFiveD.user_enters_Email_on_Sign_In_box_and_click_on_continue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2132994000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters Password on password box and click Sign-In button",
+            "match": {
+              "location": "StepDefinationFiveD.user_enters_Password_on_password_box_and_click_Sign_In_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1153978600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should successfully Signin",
+            "match": {
+              "location": "StepDefinationFiveD.user_should_successfully_Signin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3610953399,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "browser close and quit",
+            "match": {
+              "location": "StepDefinationFiveD.browser_close_and_quit()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Sign-In",
+    "description": "",
+    "id": "sign-in",
+    "keyword": "Feature",
+    "uri": "Signinn.feature"
+  }
+]
